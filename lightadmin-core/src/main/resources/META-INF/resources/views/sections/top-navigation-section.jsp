@@ -36,14 +36,6 @@
                 </div>
             </sec:authorize>
 
-            <div class="userNav">
-                <ul>
-                    <li>
-                        <a href="<c:out value='${lightAdminConfiguration.helpUrl}'/>"><img src="<light:url value='/images/icons/topnav/help.png'/>" alt=""><span>Help</span></a>
-                    </li>
-                </ul>
-            </div>
-
             <c:if test="${lightAdminConfiguration.demoMode}">
                 <div class="userNav">
                     <iframe allowtransparency="true" frameborder="0" scrolling="no"

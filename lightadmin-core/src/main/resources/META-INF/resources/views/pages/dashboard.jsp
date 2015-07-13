@@ -12,13 +12,13 @@
 </div>
 
 <div class="widget">
-	<div class="head"><h5 class="iChart8">Domain type statistics</h5></div>
+	<div class="head"><h5 class="iChart8">Statistiche record presenti</h5></div>
 	<c:if test="${not empty dashboardDomainTypes}">
 		<table id="dashboard-statistics" cellpadding="0" cellspacing="0" width="100%" class="tableStatic">
 			<thead>
 			<tr>
-				<td>Domain Type</td>
-				<td width="21%">Amount</td>
+				<td>Tipo Record</td>
+				<td width="21%">Quantit&agrave;</td>
 			</tr>
 			</thead>
 			<tbody>
